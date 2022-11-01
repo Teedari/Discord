@@ -17,7 +17,6 @@ async def greeting(event: hikari.GuildMessageCreateEvent) -> None:
   
   if event.content.startswith('@bot'):
     await event.message.respond("Hey i'm a bot")
-  print("BOT INITIATED")
 
 
 bot.run()
